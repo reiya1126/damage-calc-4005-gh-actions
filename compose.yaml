@@ -3,5 +3,6 @@ services:
   app:
     build: .
     tty: true
+    platform: linux/amd64
     volumes:
       - .:/damage-calc-4005-gh-actions
